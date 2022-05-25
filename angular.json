@@ -1,5 +1,8 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "cli": {
+    "analytics": "8b85ec24-2b83-4f27-a5b4-2f690c4b3a7d"
+  },
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
@@ -27,9 +30,12 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "https://framework-gb.cdn.gob.mx/assets/styles/main.css" 
             ],
-            "scripts": []
+            "scripts": [
+              "https://framework-gb.cdn.gob.mx/gobmx.js"
+            ]
           },
           "configurations": {
             "production": {
