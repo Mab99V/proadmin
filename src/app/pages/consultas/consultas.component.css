@@ -1,0 +1,20 @@
+.linea {
+    border-top: 10px solid #272829;
+    height: 2px;
+    max-width: 730px;
+    margin: auto;
+  }
+ 
+ .container2{
+  display:flex;
+  justify-content: center;
+  
+ }
+ p{
+  display:flex;
+  justify-content: center;
+  
+ }
+ .btn-primary{
+ margin-right:10px;
+ }
